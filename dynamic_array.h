@@ -1,10 +1,10 @@
 #ifndef DYNAMIC_ARRAY_H
 #define DYNAMIC_ARRAY_H
 
-// Функция для вывода динамического массива
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹РІРѕРґР° РґРёРЅР°РјРёС‡РµСЃРєРѕРіРѕ РјР°СЃСЃРёРІР°
 void print_dynamic_array(int* arr, int logical_size, int actual_size);
 
-// Функция для удаления первого элемента из динамического массива
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ РїРµСЂРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РёР· РґРёРЅР°РјРёС‡РµСЃРєРѕРіРѕ РјР°СЃСЃРёРІР°
 int* remove_dynamic_array_head(int* arr, int& logical_size, int& actual_size);
 
 #endif // DYNAMIC_ARRAY_H
